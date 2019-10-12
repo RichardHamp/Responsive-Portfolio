@@ -226,46 +226,42 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
 @media only screen and (max-width: 980px) {
     
     header {
-        left: 570px;
+        left: 560px;
     }
     
-    #about {/*navigational button*/
+    #about {
         margin-left: 188px;
     }
     
-    #portfolio {/*navigational button*/
+    #portfolio {
         margin-left: 262px;
     }
     
-    #contact {/*navigational button*/
+    #contact {
         margin-left: 336px;
     }
     
-    /*About Page specific declarations*/
-    
-    #about-content {/*includes h2, img, <p>*/
+    #about-content {
         width: 500px;
         left: 60%;
     }
     
-    #relative-index {/*argyle background*/
-        height: 1570px;
+    #relative-index {
+        height: 1420px;
     }
     
     #rickpic {
         height: 150px;
         width: 176px;
     }
-    
-    /*Portfolio Page specific declarations*/
-    
-    #portfolio-content {/*includes h2 and all image links*/
+  
+    #portfolio-content {
         width: 500px;
         left: 41%;
         height: 840px;
     }
     
-    #relative-portfolio {/*argyle background*/
+    #relative-portfolio {
         height: 1000px;
     }
     
@@ -273,9 +269,7 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         height: 225px;
     }
     
-    /*Contact Page specific declarations*/
-    
-    #contact-content {/*includes h2 and input lines*/
+    #contact-content {
         left: 41%;
         width: 500px;
     }
@@ -287,33 +281,31 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         height: 30px;
         width: 80px;
         font-size: x-large;
-      }
+    }
 
     header {
-        left: 530px;
+        left: 540px;
     }
     
-    #about {/*navigational button*/
-        margin-left: 34px;
+    #about {
+        margin-left: 24px;
     }
     
-    #portfolio {/*navigational button*/
-        margin-left: 137px;
+    #portfolio {
+        margin-left: 127px;
     }
     
-    #contact {/*navigational button*/
-        margin-left: 240px;
+    #contact {
+        margin-left: 230px;
     }
     
-    /*About Page specific declarations*/
-    
-    #about-content {/*includes h2, img, <p>*/
+    #about-content {
         width: 600px;
         left: 75%;
         font-size: 20px;
     }
     
-    #relative-index {/*argyle background*/
+    #relative-index {
         height: 1850px;
     }
     
@@ -322,25 +314,21 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         width: 300px;
     }
     
-    /*Portfolio Page specific declarations*/
-    
-    #portfolio-content {/*includes h2 and all image links*/
+    #portfolio-content {
         width: 600px;
         left: 50%;
         height: 990px;
     }
     
-    #relative-portfolio {/*argyle background*/
+    #relative-portfolio {
         height: 1130px;
     }
     
     .projects {
-        height: 275px;
+        height: 278px;
     }
-  
-    /*Contact Page specific declarations*/
     
-    #contact-content {/*includes h2 and input lines*/
+    #contact-content {
         left: 50%;
         width: 600px;
     }
@@ -350,18 +338,17 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
 
     .button {
         height: 20px;
-        width: 80px;
         font-size: x-large;
         border-radius: 0;
         border-width: 0;
-      }
+    }
       
-      nav {/*includes buttons and header*/
+    nav {
         background: rgb(62, 66, 55);
     }
 
     header {
-    width: 566px;
+    width: 550px;
     left: 510px;
     height: 30px;
     border-radius: 0px;
@@ -370,28 +357,26 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     background-color: #6d695c;
     }
     
-    #about {/*navigational button*/
+    #about {
         margin-left: -163px;
     }
     
-    #portfolio {/*navigational button*/
+    #portfolio {
         margin-left: -60px;
     }
     
-    #contact {/*navigational button*/
+    #contact {
         margin-left: 43px;
     }
     
-    /*About Page specific declarations*/
-    
-    #about-content {/*includes h2, img, <p>*/
+    #about-content {
         width: 500px;
-        left: 88%;
+        left: 88.75%;
         font-size: large;
         height:2000px;
     }
     
-    #relative-index {/*argyle background*/
+    #relative-index {
         height: 2150px;
     }
     
@@ -407,28 +392,24 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         top: 550px;
         position: relative;
     }
-    
-    /*Portfolio Page specific declarations*/
-    
-    #portfolio-content {/*includes h2 and all image links*/
+
+    #portfolio-content {
         width: 500px;
-        left: 58%;
+        left: 58.75%;
         height: 3120px;
     }
     
-    #relative-portfolio {/*argyle background*/
-        height: 3250px;
+    #relative-portfolio {
+        height: 3280px;
     }
     
     .projects {
         height: 480px;
         
     }
-  
-    /*Contact Page specific declarations*/
     
-    #contact-content {/*includes h2 and input lines*/
-        left: 58%;
+    #contact-content {
+        left: 58.25%;
         width: 500px;
         font-size: large;
         
