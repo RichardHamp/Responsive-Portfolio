@@ -294,15 +294,15 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     }
     
     #about {/*navigational button*/
-        margin-left: 54px;
+        margin-left: 34px;
     }
     
     #portfolio {/*navigational button*/
-        margin-left: 157px;
+        margin-left: 137px;
     }
     
     #contact {/*navigational button*/
-        margin-left: 260px;
+        margin-left: 240px;
     }
     
     /*About Page specific declarations*/
@@ -310,11 +310,11 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     #about-content {/*includes h2, img, <p>*/
         width: 600px;
         left: 75%;
-        font-size: large;
+        font-size: 20px;
     }
     
     #relative-index {/*argyle background*/
-        height: 1570px;
+        height: 1850px;
     }
     
     #rickpic {
@@ -388,15 +388,24 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         width: 500px;
         left: 88%;
         font-size: large;
+        height:2000px;
     }
     
     #relative-index {/*argyle background*/
-        height: 1570px;
+        height: 2150px;
     }
     
     #rickpic {
-        height: 520px;
-        width: 600px;
+        height: 416px;
+        width: 500px;
+        position: absolute;
+        top: 180px;
+        left: 10px;
+    }
+
+    p {
+        top: 550px;
+        position: relative;
     }
     
     /*Portfolio Page specific declarations*/
@@ -421,6 +430,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     #contact-content {/*includes h2 and input lines*/
         left: 58%;
         width: 500px;
+        font-size: large;
+        
     }
 
   }
