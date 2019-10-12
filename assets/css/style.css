@@ -223,12 +223,16 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     width: 100%;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {/*desktop layout*/
+
+    /*nav bar changes*/
     
     header {
         left: 560px;
     }
     
+    /*buttons--74px apart*/
+
     #about {
         margin-left: 188px;
     }
@@ -240,6 +244,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     #contact {
         margin-left: 336px;
     }
+
+    /*about/index page changes*/
     
     #about-content {
         width: 500px;
@@ -254,6 +260,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         height: 150px;
         width: 176px;
     }
+
+    /*portfolio page changes*/
   
     #portfolio-content {
         width: 500px;
@@ -268,6 +276,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     .projects {
         height: 225px;
     }
+
+    /*contact page changes*/
     
     #contact-content {
         left: 41%;
@@ -276,7 +286,10 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {/*tablet laout*/
+
+    /*nav bar changes*/
+
     .button {
         height: 30px;
         width: 80px;
@@ -287,6 +300,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         left: 540px;
     }
     
+    /*buttons--103px apart*/
+
     #about {
         margin-left: 24px;
     }
@@ -298,6 +313,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     #contact {
         margin-left: 230px;
     }
+
+    /*about/index page changes*/
     
     #about-content {
         width: 600px;
@@ -313,6 +330,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         height: 260px;
         width: 300px;
     }
+
+    /*portfolio page changes*/
     
     #portfolio-content {
         width: 600px;
@@ -327,6 +346,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     .projects {
         height: 278px;
     }
+
+    /*contact page changes*/
     
     #contact-content {
         left: 50%;
@@ -334,7 +355,9 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     }
   }
 
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 640px) {/* Phone layout*/
+
+    /*nav bar changes*/
 
     .button {
         height: 20px;
@@ -356,6 +379,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     text-align: top;
     background-color: #6d695c;
     }
+
+    /*buttons--103px apart*/
     
     #about {
         margin-left: -163px;
@@ -368,6 +393,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     #contact {
         margin-left: 43px;
     }
+
+    /*About/Index page changes*/
     
     #about-content {
         width: 500px;
@@ -393,6 +420,8 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         position: relative;
     }
 
+    /*portfolio page changes*/
+
     #portfolio-content {
         width: 500px;
         left: 58.75%;
@@ -405,8 +434,9 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     
     .projects {
         height: 480px;
-        
     }
+
+    /*contact page changes*/
     
     #contact-content {
         left: 58.25%;
@@ -414,5 +444,4 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
         font-size: large;
         
     }
-
   }
