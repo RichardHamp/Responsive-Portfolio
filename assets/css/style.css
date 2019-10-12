@@ -222,3 +222,205 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
 .contact-input {
     width: 100%;
 }
+
+@media only screen and (max-width: 980px) {
+    
+    header {
+        left: 570px;
+    }
+    
+    #about {/*navigational button*/
+        margin-left: 188px;
+    }
+    
+    #portfolio {/*navigational button*/
+        margin-left: 262px;
+    }
+    
+    #contact {/*navigational button*/
+        margin-left: 336px;
+    }
+    
+    /*About Page specific declarations*/
+    
+    #about-content {/*includes h2, img, <p>*/
+        width: 500px;
+        left: 60%;
+    }
+    
+    #relative-index {/*argyle background*/
+        height: 1570px;
+    }
+    
+    #rickpic {
+        height: 150px;
+        width: 176px;
+    }
+    
+    /*Portfolio Page specific declarations*/
+    
+    #portfolio-content {/*includes h2 and all image links*/
+        width: 500px;
+        left: 41%;
+        height: 840px;
+    }
+    
+    #relative-portfolio {/*argyle background*/
+        height: 1000px;
+    }
+    
+    .projects {
+        height: 225px;
+    }
+    
+    /*Contact Page specific declarations*/
+    
+    #contact-content {/*includes h2 and input lines*/
+        left: 41%;
+        width: 500px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .button {
+        height: 30px;
+        width: 80px;
+        font-size: x-large;
+      }
+
+    header {
+        left: 530px;
+    }
+    
+    #about {/*navigational button*/
+        margin-left: 54px;
+    }
+    
+    #portfolio {/*navigational button*/
+        margin-left: 157px;
+    }
+    
+    #contact {/*navigational button*/
+        margin-left: 260px;
+    }
+    
+    /*About Page specific declarations*/
+    
+    #about-content {/*includes h2, img, <p>*/
+        width: 600px;
+        left: 75%;
+        font-size: large;
+    }
+    
+    #relative-index {/*argyle background*/
+        height: 1570px;
+    }
+    
+    #rickpic {
+        height: 260px;
+        width: 300px;
+    }
+    
+    /*Portfolio Page specific declarations*/
+    
+    #portfolio-content {/*includes h2 and all image links*/
+        width: 600px;
+        left: 50%;
+        height: 990px;
+    }
+    
+    #relative-portfolio {/*argyle background*/
+        height: 1130px;
+    }
+    
+    .projects {
+        height: 275px;
+    }
+  
+    /*Contact Page specific declarations*/
+    
+    #contact-content {/*includes h2 and input lines*/
+        left: 50%;
+        width: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+
+    .button {
+        height: 20px;
+        width: 80px;
+        font-size: x-large;
+        border-radius: 0;
+        border-width: 0;
+      }
+      
+      nav {/*includes buttons and header*/
+        background: rgb(62, 66, 55);
+    }
+
+    header {
+    width: 566px;
+    left: 510px;
+    height: 30px;
+    border-radius: 0px;
+    top: 0;
+    text-align: top;
+    background-color: #6d695c;
+    }
+    
+    #about {/*navigational button*/
+        margin-left: -163px;
+    }
+    
+    #portfolio {/*navigational button*/
+        margin-left: -60px;
+    }
+    
+    #contact {/*navigational button*/
+        margin-left: 43px;
+    }
+    
+    /*About Page specific declarations*/
+    
+    #about-content {/*includes h2, img, <p>*/
+        width: 500px;
+        left: 88%;
+        font-size: large;
+    }
+    
+    #relative-index {/*argyle background*/
+        height: 1570px;
+    }
+    
+    #rickpic {
+        height: 520px;
+        width: 600px;
+    }
+    
+    /*Portfolio Page specific declarations*/
+    
+    #portfolio-content {/*includes h2 and all image links*/
+        width: 500px;
+        left: 58%;
+        height: 3120px;
+    }
+    
+    #relative-portfolio {/*argyle background*/
+        height: 3250px;
+    }
+    
+    .projects {
+        height: 480px;
+        
+    }
+  
+    /*Contact Page specific declarations*/
+    
+    #contact-content {/*includes h2 and input lines*/
+        left: 58%;
+        width: 500px;
+    }
+
+  }
