@@ -21,7 +21,6 @@ header {
     margin-left: -510px;
     padding: 15px;
     border-radius: 15px;
-    float: le.
     bottom: 0;
     position: absolute;
     text-align: center;
@@ -361,7 +360,7 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
 
     .button {
         height: 20px;
-        font-size: x-large;
+        font-size: large;
         border-radius: 0;
         border-width: 0;
     }
@@ -378,6 +377,7 @@ a {text-decoration:none;} /*gets rid of underscore between images*/
     top: 0;
     text-align: top;
     background-color: #6d695c;
+    font-size: x-large;
     }
 
     /*buttons--103px apart*/
